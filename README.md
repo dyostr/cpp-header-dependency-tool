@@ -140,5 +140,3 @@ As a result:
 - Generated headers must already exist to be discovered.
 - System headers and external dependencies may require additional include directories.
 - Files outside the specified source root are skipped during copying to avoid writing files outside the intended directory structure.
-
-For exact compiler-specific dependencies, consider using compiler dependency tools such as MSVC's `/showIncludes` or integrating with the existing CMake build configuration.
